@@ -6,8 +6,8 @@ export function Header() {
   ]
 
   return (
-    <header className='bg-white'>
-      <ul className='flex justify-around font-semibold'>
+    <header className='max-w-[1280px]'>
+      <ul className='flex justify-around font-semibold text-[--primary]'>
         {sections.map(section => (
           <li key={section.title}>
             <a href={section.url}>{section.title}</a>
