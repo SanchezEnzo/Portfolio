@@ -18,9 +18,9 @@
   --small-text-light-mode: rgb(111, 111, 111);
   --small-text-dark-mode: rgb(160, 160, 160);
   --bg-card-light-mode: hsla(0, 0%, 98%, 0.7);
-  --outline-light-mode: '#e4e4e7';
+  --outline-light-mode: #e4e4e7;
   --bg-card-dark-mode: rgba(24, 24, 27, 0.2);
-  --outline-dark-mode: '#1a1a1a';
+  --outline-dark-mode: #1a1a1a;
   --icon-dark-mode: rgb(161, 161, 170);
   --icon-light-mode: rgb(23, 23, 23);
 }
