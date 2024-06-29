@@ -6,7 +6,7 @@ export function Header() {
   ]
 
   return (
-    <header className='flex justify-center pt-2'>
+    <header className='flex justify-center pt-2 timeline-scroll-header animate-enhance-header sticky top-0'>
       <ul className='flex justify-around font-semibold min-w-[512px]  text-[--text-dark-mode] p-4 rounded-lg bg-[--bg-card-dark-mode] border-[rgba(255,255,255,0.1)] border outline-[--outline-dark-mode] outline'>
         {sections.map(section => (
           <li key={section.title}>
