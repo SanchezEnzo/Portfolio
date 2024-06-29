@@ -24,3 +24,7 @@
   --icon-dark-mode: rgb(161, 161, 170);
   --icon-light-mode: rgb(23, 23, 23);
 }
+
+.timeline-scroll {
+  animation-timeline: scroll(root block);
+}
