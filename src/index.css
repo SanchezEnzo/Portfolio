@@ -9,8 +9,8 @@
 }
 
 :root {
-  --bg-dark-mode: rgb(22, 22, 22);
-  --bg-light-mode: rgb(252, 252, 252);
+  --bg-dark-mode: #161616;
+  --bg-light-mode: #fcfcfc;
   --title-light-mode: rgb(23, 23, 23);
   --title-dark-mode: rgb(255, 255, 255);
   --text-light-mode: rgb(64, 64, 64);
@@ -27,4 +27,9 @@
 
 .timeline-scroll {
   animation-timeline: scroll(root block);
+}
+
+.timeline-scroll-header {
+  animation-timeline: scroll(root block);
+  animation-range: 0 200px;
 }
