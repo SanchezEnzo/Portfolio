@@ -10,16 +10,11 @@ export function Layout() {
   return (
     <div className={`${darkMode ? 'dark' : ''}`}>
       <div className='min-h-screen flex flex-col gap-20 bg-[--bg-light-mode] dark:bg-[--bg-dark-mode]'>
-        <div className=' animate-progress-grow timeline-scroll fixed bottom-0 w-[0%] bg-[--text-light-mode]  h-1'></div>
+        <div className=' animate-progress-grow timeline-scroll fixed bottom-0 w-[0%] bg-[--text-light-mode] dark:bg-[--text-dark-mode] h-1'></div>
         <Header />
         <SideBar />
         <Presentation />
         <Proyects />
-        <div className='fixed bottom-1 right-40'>
-          <span className='text-xl text-black font-semibold'>
-            ModeDark: {darkMode.toString()}
-          </span>
-        </div>
       </div>
     </div>
   )
