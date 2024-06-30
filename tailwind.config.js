@@ -19,7 +19,8 @@ export default {
       animation: {
         'progress-grow': 'progress-grow auto linear',
         'enhance-header': 'enhance-header linear both'
-      }
+      },
+      transition: {}
     }
   },
   plugins: []
