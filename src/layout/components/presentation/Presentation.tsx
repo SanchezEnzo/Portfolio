@@ -1,6 +1,6 @@
 export function Presentation() {
   return (
-    <body className='h-full w-full flex justify-center'>
+    <main className='h-full w-full flex justify-center'>
       <div className='max-w-[1280px] flex items-center gap-20'>
         <div className='text-[--text-dark-mode] font-semibold flex flex-col gap-1'>
           <h2 className='text-4xl'>Hola, soy</h2>
@@ -15,6 +15,6 @@ export function Presentation() {
           alt='Foto de Enzo Sanchez'
         />
       </div>
-    </body>
+    </main>
   )
 }

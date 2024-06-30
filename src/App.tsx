@@ -1,5 +1,10 @@
+import { ThemeModeProvider } from './layout/context/themeMode'
 import { Layout } from './layout/pages/Layout'
 
 export function App() {
-  return <Layout />
+  return (
+    <ThemeModeProvider>
+      <Layout />
+    </ThemeModeProvider>
+  )
 }
