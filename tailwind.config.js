@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'selector',
-  // ...
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -27,16 +26,21 @@ export default {
         'spin-once': {
           from: { transform: 'rotate(0deg)' },
           to: { transform: 'rotate(90deg)' }
+        },
+        'border-beam': {
+          to: {
+            offsetDistance: '100%'
+          }
         }
       },
       animation: {
         'progress-grow': 'progress-grow auto linear',
         'enhance-header-light': 'enhance-header-light linear both',
         'enhance-header-dark': 'enhance-header-dark linear both',
+        'border-beam': 'border-beam 10s infinite linear',
         'spin-once': 'spin-once 0.3s linear both'
-      },
-      transition: {}
-    }
-  },
-  plugins: []
+      }
+    },
+    plugins: []
+  }
 }
