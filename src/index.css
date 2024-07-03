@@ -33,3 +33,32 @@
   animation-timeline: scroll(root block);
   animation-range: 0 200px;
 }
+
+@keyframes enhance-header-light {
+  to {
+    background: rgba(250, 250, 250, 0.4);
+    backdrop-filter: blur(5px);
+    padding-top: 1px;
+    font-size: large;
+  }
+}
+
+@keyframes enhance-header-dark {
+  from {
+    padding-top: 8px;
+  }
+  to {
+    background: rgba(22, 22, 22, 0.4);
+    backdrop-filter: blur(5px);
+    padding-top: 1px;
+    font-size: large;
+  }
+}
+
+@keyframes expand-header {
+  to {
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+  }
+}
