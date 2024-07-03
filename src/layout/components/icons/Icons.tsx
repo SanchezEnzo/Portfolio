@@ -120,3 +120,52 @@ export const LightModeIcon = () => (
     <path d='m19.07 4.93-1.41 1.41'></path>
   </svg>
 )
+
+export const DemoIcon = () => {
+  return (
+    <svg
+      width='24px'
+      height='24px'
+      viewBox='0 0 24 24'
+      stroke-width='1.5'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+      color='#000000'
+      className='dark:group-hover:text-outline-300 h-6 w-6 stroke-[1.5px] text-neutral-900 outline-zinc-900 transition group-hover:text-neutral-900 group-hover:outline-zinc-900 dark:text-[--text-dark-mode] dark:outline-[--text-dark-mode] dark:group-hover:text-zinc-300 z-10 relative'
+    >
+      <path
+        d='M2 19V5C2 3.89543 2.89543 3 4 3H20C21.1046 3 22 3.89543 22 5V19C22 20.1046 21.1046 21 20 21H4C2.89543 21 2 20.1046 2 19Z'
+        stroke='#000000'
+        stroke-width='1.5'
+      ></path>
+      <path
+        d='M2 7L22 7'
+        stroke='#000000'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      ></path>
+      <path
+        d='M5 5.01L5.01 4.99889'
+        stroke='#000000'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      ></path>
+      <path
+        d='M8 5.01L8.01 4.99889'
+        stroke='#000000'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      ></path>
+      <path
+        d='M11 5.01L11.01 4.99889'
+        stroke='#000000'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      ></path>
+    </svg>
+  )
+}
