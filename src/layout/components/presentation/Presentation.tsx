@@ -12,6 +12,15 @@ export function Presentation() {
             Enzo Sanchez
           </h1>
           <span className='text-3xl pt-2'>Desarrollador Front-end</span>
+          <div className=' items-center  bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] border-[rgba(255,255,255,1)] dark:border-[rgba(255,255,255,0.1)] border outline-[--outline-light-mode] dark:outline-[--outline-dark-mode] outline rounded-lg p-1 flex max-w-[190px] gap-2 mt-2'>
+            <div className='relative h-2 w-2 inline-flex justify-center'>
+              <span className='bg-[#A3E635] animate-ping rounded-full h-2 w-2 opacity-75 absolute '></span>
+              <span className='h-2 w-2 bg-[#A3E635] rounded-full relative top-0 bottom-0  right-0 left-0 my-0 mx-auto'></span>
+            </div>
+            <span className='text-[--small-text-light-mode] dark:text-[--small-text-dark-mode] text-[14px]'>
+              Disponible para trabajar
+            </span>
+          </div>
         </div>
         {darkMode ? (
           <img
