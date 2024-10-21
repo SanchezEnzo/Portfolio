@@ -69,7 +69,7 @@ export const ArrowUpIcon = ({ className }: { className: string }) => {
       stroke-width='2'
       stroke-linecap='round'
       stroke-linejoin='round'
-      className={`lucide lucide-arrow-up-right w-6 h-6 transition-all absolute top-0 -z-10 dark:text-[--text-dark-mode] opacity-0 hover:opacity-100 ${className}`}
+      className={`lucide lucide-arrow-up-right w-6 h-6 transition-all absolute top-0 -z-10 dark:text-[--text-dark-mode] opacity-0  ${className}`}
     >
       <path d='M7 7h10v10' />
       <path d='M7 17 17 7' />
@@ -166,6 +166,47 @@ export const DemoIcon = () => {
         stroke-linecap='round'
         stroke-linejoin='round'
       ></path>
+    </svg>
+  )
+}
+
+export const LinkIcon = () => {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      viewBox='0 0 24 24'
+      fill='none'
+      stroke='currentColor'
+      stroke-width='2'
+      stroke-linecap='round'
+      stroke-linejoin='round'
+      className='lucide lucide-square-arrow-out-up-right dark:group-hover:text-outline-300 h-6 w-6 stroke-[1.5px] text-neutral-900 outline-zinc-900 transition group-hover:text-neutral-900 group-hover:outline-zinc-900 dark:text-[--text-dark-mode] dark:outline-[--text-dark-mode] dark:group-hover:text-zinc-300 hover:opacity-0 z-10 relative'
+    >
+      <path d='M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6' />
+      <path d='m21 3-9 9' />
+      <path d='M15 3h6v6' />
+    </svg>
+  )
+}
+
+export const ChainLink = () => {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      viewBox='0 0 24 24'
+      fill='none'
+      stroke='currentColor'
+      stroke-width='2'
+      stroke-linecap='round'
+      stroke-linejoin='round'
+      className='lucide lucide-link'
+    >
+      <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71' />
+      <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71' />
     </svg>
   )
 }
