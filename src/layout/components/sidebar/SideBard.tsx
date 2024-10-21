@@ -23,11 +23,11 @@ export function SideBar() {
               <GithubIcon className='group-hover:opacity-0 transition-opacity ' />
               <ArrowUpIcon className='absolute top-0 left-0 w-full h-full  group-hover:opacity-100 group-hover:-translate-y-1 transition-all' />
             </a>
-            <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 group-hover:translate-x-7 group-hover:-translate-y-2  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] '>
+            {/* <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 translate-x-7 -translate-y-2  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] delay-300'>
               <span className='border-[rgba(255,255,255,1)] dark:border-[rgba(255,255,255,0.1)] border outline-[--outline-light-mode] dark:outline-[--outline-dark-mode] outline rounded-md p-1'>
                 Github
               </span>
-            </div>
+            </div> */}
           </li>
           <li className='w-[24px] h-[24px] relative group cursor-pointer'>
             <a
@@ -38,11 +38,11 @@ export function SideBar() {
               <LinkedInIcon className='group-hover:opacity-0 transition-opacity ' />
               <ArrowUpIcon className='absolute top-0 left-0 w-full h-full  group-hover:opacity-100 group-hover:-translate-y-1 transition-all' />
             </a>
-            <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 group-hover:translate-x-7 group-hover:-translate-y-2  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] '>
+            {/* <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 translate-x-7 -translate-y-2  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] delay-300'>
               <span className='border-[rgba(255,255,255,1)] dark:border-[rgba(255,255,255,0.1)] border outline-[--outline-light-mode] dark:outline-[--outline-dark-mode] outline rounded-md p-1'>
                 LinkedIn
               </span>
-            </div>
+            </div> */}
           </li>
           <li className='w-[24px] h-[24px] relative group cursor-pointer'>
             <a
@@ -53,11 +53,11 @@ export function SideBar() {
               <GmailIcon className='group-hover:opacity-0 transition-opacity duration-100' />
               <ArrowUpIcon className='absolute top-0 left-0 w-full h-full  group-hover:opacity-100   group-hover:-translate-y-1 transition-all' />
             </a>
-            <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 group-hover:translate-x-7 group-hover:-translate-y-2  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] '>
+            {/* <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 translate-x-7 -translate-y-2  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] delay-300'>
               <span className='border-[rgba(255,255,255,1)] dark:border-[rgba(255,255,255,0.1)] border outline-[--outline-light-mode] dark:outline-[--outline-dark-mode] outline rounded-md p-1'>
                 Email
               </span>
-            </div>
+            </div> */}
           </li>
         </div>
         <div className='flex flex-col gap-5'>
@@ -66,11 +66,11 @@ export function SideBar() {
             onClick={handleThemeMode}
           >
             {darkMode ? <LightModeIcon /> : <DarkModeIcon />}
-            <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 group-hover:translate-x-2 group-hover:translate-y-7  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] rotate-90'>
+            {/* <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 translate-x-2 translate-y-7  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] rotate-90 delay-300 '>
               <span className='border-[rgba(255,255,255,1)] dark:border-[rgba(255,255,255,0.1)] border outline-[--outline-light-mode] dark:outline-[--outline-dark-mode] outline rounded-md p-1'>
                 Tema
               </span>
-            </div>
+            </div> */}
           </li>
         </div>
       </ul>

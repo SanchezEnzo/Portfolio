@@ -13,9 +13,9 @@ export function Projects() {
       href: '/',
       cta: 'Learn more',
       background: (
-        <img className='opacity-60 ' src='/imgs/projects/EasyTurnosEdit.png' />
+        <img className='opacity-80 ' src='/imgs/projects/EasyTurnosEdit.png' />
       ),
-      className: 'lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3'
+      className: 'lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2'
     },
     {
       name: 'Full text search',
@@ -31,7 +31,7 @@ export function Projects() {
       href: '/',
       cta: 'Learn more',
       background: <img className='opacity-60' />,
-      className: 'lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4'
+      className: 'lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3'
     },
 
     {
@@ -42,7 +42,7 @@ export function Projects() {
       href: '/',
       cta: 'Learn more',
       background: <img className='opacity-60' />,
-      className: 'lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-4'
+      className: 'lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3'
     }
   ]
   return (
@@ -50,7 +50,7 @@ export function Projects() {
       <header>
         <Title param={'Proyectos'} />
       </header>
-      <BentoGrid className='lg:grid-rows-3'>
+      <BentoGrid className='lg:grid-rows-2 max-lg:px-10'>
         {features.map(feature => (
           <BentoCard key={feature.name} {...feature} />
         ))}
@@ -59,6 +59,7 @@ export function Projects() {
         <a
           href='https://github.com/SanchezEnzo?tab=repositories'
           target='_blank'
+          className='dark:text-[--text-dark-mode] text-[--text-light-mode]'
         >
           Ver más proyectos
         </a>

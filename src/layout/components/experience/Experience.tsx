@@ -14,21 +14,42 @@ export function Experience() {
         />
         <div>
           <header>
-            <h3 className='text-2xl font-semibold'>
+            <h3 className='text-2xl font-semibold text-neutral-700 dark:text-neutral-300'>
               Frontend Developer | No Country
             </h3>
           </header>
-          <span>Marzo 2024 - Junio 2024</span>
-          <p className='pt-2 pb-1'>
-            Durante mi práctica laboral en No Country, me centré en el
-            desarrollo de WebApps, Creando componentes dinamicos, realizando
-            integraciones de API REST y la implementación de diseños
-            responsivos. Participé activamente en metodologías ágiles como
-            SCRUM, asistiendo a Daily Meets y practicando Pair Programming.
-            Además, utilicé herramientas como Jira y Trello para la gestion de
-            tareas.
-          </p>
-          <span>Tecnologías: React TypeScript Tailwind Git Github</span>
+          <span className='font-semibold text-[--small-text-light-mode] dark:text-[--small-text-dark-mode]'>
+            Marzo 2024 - Junio 2024
+          </span>
+          <div className='pt-3 pb-2'>
+            <p className=' text-[--text-light-mode] dark:text-neutral-400 font-sans'>
+              Durante mi práctica en No Country, me enfoqué en el desarrollo de
+              aplicaciones web, donde:
+            </p>
+            <ul className='text-[--text-light-mode] dark:text-neutral-400 font-sans list-disc pl-5'>
+              <li>
+                <p>
+                  Creé componentes interactivos que mejoran la experiencia del
+                  usuario.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Integré API REST para intercambiar datos y funcionalidades con
+                  servicios externos.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Implementé diseños responsivos para asegurar una experiencia
+                  óptima en dispositivos móviles y de escritorio.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <span className=' text-[--text-light-mode] dark:text-neutral-400 font-sans '>
+            Tecnologías: React TypeScript Tailwind Git Github
+          </span>
         </div>
       </article>
     </section>
