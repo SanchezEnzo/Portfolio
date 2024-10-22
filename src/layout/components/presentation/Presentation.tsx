@@ -1,8 +1,8 @@
 import { useThemeMode } from '../../hooks/useThemeMode'
 
 export function Presentation() {
-  const { darkMode } = useThemeMode()
-  console.log('DarkMode: ', darkMode)
+	const { darkMode } = useThemeMode()
+	
   return (
     <main className='h-full w-full flex justify-center'>
       <div className='max-w-[1280px] flex items-center gap-20'>

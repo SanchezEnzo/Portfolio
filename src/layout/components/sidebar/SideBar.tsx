@@ -9,7 +9,14 @@ import {
 } from '../Icons/Icons'
 
 export function SideBar() {
-  const { darkMode, handleThemeMode } = useThemeMode()
+	const { darkMode, handleThemeMode } = useThemeMode()
+	
+	const handleClickThemeMode = () => {
+		if (!document.startViewTransition) handleThemeMode()
+    document.startViewTransition(handleThemeMode)
+}
+
+
   return (
     <aside className='fixed top-56 left-5'>
       <ul className='w-full h-full flex flex-col gap-10 items-center  bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] border-[rgba(255,255,255,1)] dark:border-[rgba(255,255,255,0.1)] border outline-[--outline-light-mode] dark:outline-[--outline-dark-mode] outline rounded-lg p-2'>
@@ -63,7 +70,7 @@ export function SideBar() {
         <div className='flex flex-col gap-5'>
           <li
             className='transition-transform -rotate-90 cursor-pointer relative group'
-            onClick={handleThemeMode}
+            onClick={handleClickThemeMode}
           >
             {darkMode ? <LightModeIcon /> : <DarkModeIcon />}
             {/* <div className='rounded text-xs text-[14px] dark:text-[--text-dark-mode] absolute opacity-0 top-0 bottom-0 right-0 left-0 group-hover:opacity-100 translate-x-2 translate-y-7  z-50 duration-500 bg-[--bg-card-light-mode] dark:bg-[--bg-card-dark-mode] rotate-90 delay-300 '>

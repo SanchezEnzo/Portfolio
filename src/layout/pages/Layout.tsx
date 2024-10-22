@@ -4,12 +4,12 @@ import { Experience } from '../components/experience/Experience'
 import { Navbar } from '../components/navbar/Navbar'
 import { Presentation } from '../components/presentation/Presentation'
 import { Projects } from '../components/projects/Projects'
-import { SideBar } from '../components/sidebar/SideBard'
+import { SideBar } from '../components/sidebar/SideBar'
 import { useThemeMode } from '../hooks/useThemeMode'
 
 export function Layout() {
-  const { darkMode } = useThemeMode()
-
+	const { darkMode } = useThemeMode()
+	
   return (
     <div className={`${darkMode ? 'dark' : ''}`}>
       <div className='min-h-screen flex flex-col gap-40 bg-[--bg-light-mode] dark:bg-[--bg-dark-mode] items-center'>
