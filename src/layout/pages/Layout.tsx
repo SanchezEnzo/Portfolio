@@ -13,7 +13,7 @@ export function Layout() {
   return (
     <div className={`${darkMode ? 'dark' : ''}`}>
       <div className='min-h-screen flex flex-col gap-40 bg-[--bg-light-mode] dark:bg-[--bg-dark-mode] items-center'>
-        <div className='animate-progress-grow timeline-scroll fixed bottom-0 left-0 w-[0%] bg-[--text-light-mode] dark:bg-[--text-dark-mode] h-1 z-50'></div>
+        <div className='animate-progress-grow timeline-scroll fixed bottom-0 left-0 bg-[--text-light-mode] dark:bg-[--text-dark-mode] h-1 z-50'></div>
         <Navbar />
         <SideBar />
         <Presentation />

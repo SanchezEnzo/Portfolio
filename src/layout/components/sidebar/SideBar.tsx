@@ -69,7 +69,7 @@ export function SideBar() {
         </div>
         <div className='flex flex-col gap-5'>
           <li
-            className='transition-transform -rotate-90 cursor-pointer relative group'
+            className='transition-transform  -rotate-90 cursor-pointer relative group'
             onClick={handleClickThemeMode}
           >
             {darkMode ? <LightModeIcon /> : <DarkModeIcon />}

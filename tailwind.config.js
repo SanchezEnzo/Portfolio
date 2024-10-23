@@ -21,7 +21,7 @@ export default {
         'enhance-header-light': 'enhance-header-light linear both',
         'enhance-header-dark': 'enhance-header-dark linear both',
         'expand-header': 'expand-header linear both',
-        'spin-once': 'spin-once 0.3s linear both'
+        'spin-once': 'spin-once 0.4s linear both'
       },
       transition: {}
     }
