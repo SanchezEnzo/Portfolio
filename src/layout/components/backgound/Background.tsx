@@ -5,7 +5,8 @@ export const BgTop = () => {
       height='795'
       viewBox='0 0 1572 795'
       fill='none'
-      xmlns='http://www.w3.org/2000/svg'
+			xmlns='http://www.w3.org/2000/svg'
+			className="absolute top-0 right-0"
     >
       <mask
         id='mask0_340_660'
@@ -143,7 +144,8 @@ export const BgMid = () => {
       viewBox='0 147.552 1589.4843276036402 647.448'
       style={{ maxHeight: 500 }}
       width='1589.4843276036402'
-      height='647.448'
+			height='647.448'
+			className="absolute top-0 right-0"
     >
       <mask
         height='795'
@@ -281,6 +283,7 @@ export const BgBottom = () => {
       viewBox='0 0 1170 461'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
+      className='absolute top-0 right-0'
     >
       <g opacity='0.22' filter='url(#filter0_f_94_12716)'>
         <circle cx='585' cy='473' r='329' fill='#5B21B6' />
