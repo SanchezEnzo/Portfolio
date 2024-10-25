@@ -25,6 +25,8 @@
   --icon-light-mode: rgb(23, 23, 23);
 }
 
+/* HEADER ANIMATION */
+
 .timeline-scroll {
   animation-timeline: scroll(root block);
 }
@@ -62,6 +64,8 @@
     padding: 0.5rem;
   }
 }
+
+/* BUTTOM THEME ANIMATION */
 
 .animate-ping {
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
@@ -135,4 +139,34 @@
 		/* Move horizontally so that right edge is aligned against the viewport */
 		transform: translateX(calc(-100% + 100vw));
 	}
+}
+
+/* TITLE ANIMATION */
+
+.scroll-container {
+	height: 20vh;
+}
+
+.scroll-text{
+  view-timeline: --subjectReveal block;
+  animation-timeline: --subjectReveal;
+
+  animation-name: title-animation;
+  animation-fill-mode: forwards;
+  animation-duration: 0.1ms; 
+}
+
+@keyframes title-animation {
+	0% {
+    transform: translateX(-100px) ;
+  }
+
+	50% {
+		transform: translateX(0px) ;
+	}
+
+  to {
+    opacity: 1;
+    transform: translateX(0px) ;
+  }
 }
